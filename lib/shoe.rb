@@ -5,6 +5,10 @@ class Shoe
   def initialize(name)
   end
 
+  def brand(brand="Nike")
+    @brand
+  end
+
   def cobble
     puts "Your shoe is as good as new!"
   end
